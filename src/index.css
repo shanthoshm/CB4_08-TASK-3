@@ -1,0 +1,283 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+}
+
+.top-nav-bar{
+  display: grid;
+  grid-template-columns:300px 1fr;
+  background-color: white;
+
+}
+.top-left{
+    float: left;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+   
+}
+
+
+.top-left-items .logo{
+    width: 80px;
+    height: 80px;
+
+}
+.top-left-items .title{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+
+}
+
+.top-right{
+    float: right;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.top-right a {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top-right a:hover{
+    text-decoration: underline;
+}
+
+#Home-Section{
+    margin-top: 10px;
+}
+.welcome-message{
+    text-align: center;
+    text-decoration:underline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login-div{
+ display: grid;
+ grid-template-columns: 600px 1fr ;
+ background-color: white;
+ /* height: 500px; */
+}
+.money-img img{
+    width: 400px;
+    height: 400px;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  margin: 100px 100px;
+}
+
+.form-items {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.form-items  input{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+
+.login-button{
+    padding: 5px 10px;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     background-color: rgb(43, 64, 156);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     
+     
+     
+}
+.sign-up{
+    margin-top:10px;
+    margin-left: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.span-signup
+{
+    text-decoration:none;
+    cursor: pointer;
+}
+.span-signup:hover{
+    text-decoration:underline;
+}
+
+/* services styles */
+
+ h1{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    column-gap: 20px;
+    margin:0px 50px;
+}
+.sub-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+   
+}
+
+.sub-div div img{
+   width: 250px;
+   height: 250px;
+   border-radius: 10px;
+}
+.service-buttons{
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(43, 64, 156);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(43, 64, 156);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About section */
+
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+   
+}
+.about h2{
+ text-align: center;
+ font-size: 26px;
+ font-weight: bold;
+ text-decoration: underline;
+}
+.about p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px;
+}
+.mission h2{
+  text-align: left;
+  font-size: 26px; 
+  margin-left: 10px;
+}
+.mission p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px;  
+}
+.whom-i h2{
+    text-align: left;
+    font-size: 26px; 
+    margin-left: 10px;
+}
+.whom-i p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px;  
+}
+.details h2{
+    text-align: left;
+    font-size: 26px; 
+    margin-left: 10px;
+}
+.details ul{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px;  
+}
+.join h2{
+    text-align: left;
+    font-size: 26px; 
+    margin-left: 10px; 
+}
+.join p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px; 
+}
+
+/* contact section */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.contact h2{
+    text-align: center;
+    font-size: 26px; 
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contact p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px; 
+}
+.phone h3{
+    text-align: left;
+    font-size: 26px; 
+    margin-left: 10px; 
+}
+.phone ul {
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px; 
+}
+.phone p{
+    font-size:20px;
+    text-align: justify;
+    margin: 0px 10px; 
+}
+
+
+
+
+
+
